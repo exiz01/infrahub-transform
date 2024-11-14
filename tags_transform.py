@@ -4,7 +4,7 @@ from infrahub_sdk.transforms import InfrahubTransform
 class TagsTransform(InfrahubTransform):
 
     query = "tags_query"
-    url = "https://webhook.site/de5d946f-adc7-4a59-8afb-c5652ad33c87"
+    url = "tags_transform"
 
     async def transform(self, data):
         tag = data["BuiltinTag"]["edges"][0]["node"]
