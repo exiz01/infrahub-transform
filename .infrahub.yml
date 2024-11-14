@@ -1,0 +1,9 @@
+---
+python_transforms:
+  - name: tags_transform
+    class_name: TagsTransform
+    file_path: "tags_transform.py"
+
+queries:
+  - name: tags_query
+    file_path: "tags_query.gql"
